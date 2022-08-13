@@ -1,0 +1,47 @@
+<html>
+<div id="inp" class="header">
+  <h2> RECIPE ORGANIZER</h2>
+</div>
+<br>
+<div class="add">
+  <input type="url" id="url" name="recipeurl" placeholder="Recipe's URL.."> <br> <br>
+  <input type="text" id="name" name="recipename" placeholder="Recipe's name.."> <br> <br>
+  <input type="text" id="d" name="recipedesc" placeholder="Short description of recipe.."> <br> <br>
+  <select id="category" name="category">
+    <option value="s">Snack</option>
+    <option value="d">Drink</option>
+    <option value="a">Appetizer</option>
+    <option value="b">Breakfast</option>
+    <option value="l">Lunch</option>
+    <option value="di">Dinner</option>
+    <option value="de">Dessert</option>
+  </select> <br><br><br>
+  <span onclick="addRecipe()" id="button">Add Recipe</span> <br><br><br><br><br><br>
+</div>
+
+<div id="links" class="link">
+  <span><a href="#Snack" id="sl"> Snacks </a></span>
+  <span><a href="#Drink" id="dl"> Drinks </a></span>
+  <span><a href="#Appetizer" id="al"> Appetizers </a></span>
+  <span><a href="#Breakfast" id="bl"> Breakfast </a></span>
+  <span><a href="#Lunch" id="ll"> Lunch </a></span>
+  <span><a href="#Dinner" id="dil"> Dinner </a></span>
+  <span><a href="#Dessert" id="del"> Dessert </a></span>
+</div>
+
+<br><br><br><br>
+<ul id="Snack">SNACKS</ul>
+<br><br>
+<ul id="Drink">DRINKS</ul>
+<br><br>
+<ul id="Appetizer">APPETIZERS</ul>
+<br><br>
+<ul id="Breakfast">BREAKFAST</ul>
+<br><br>
+<ul id="Lunch">LUNCH</ul>
+<br><br>
+<ul id="Dinner">DINNER</ul>
+<br><br>
+<ul id="dessert">DESSERT</ul>
+
+</html>
