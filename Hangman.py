@@ -4,11 +4,6 @@ import urllib.request
 import random
 import sys
 
-#link = 'https://eslgrammar.org/list-of-nouns/'
-#output = requests.get(link).text
-#soup = BeautifulSoup(output,'html.parser')
-#for row in soup.find('table').tbody.find_all('tr'):
- #  print(row.find_all('td').text)
 
 def picture (num):
     if (num==0):
